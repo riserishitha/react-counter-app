@@ -1,0 +1,29 @@
+.body{
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
+.heading{
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+.process{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.plus,.minus{
+  height: 30px;
+  width:30px;
+  font-size: 15px;
+}
+.alltheway{
+  height: 30px;
+  width:60px; 
+  font-weight: 700;
+}
+.plus:hover,.minus:hover,.alltheway:hover{
+  background-color:black ;
+  color: white;
+}
